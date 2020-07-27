@@ -117,8 +117,13 @@
               "devServerTarget": "angular-heroku:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-heroku"
 }
